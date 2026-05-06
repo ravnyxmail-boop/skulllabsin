@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skull Hosting data centers worldwide - Low latency, high performance servers in strategic locations across the globe.">
+    <meta name="keywords" content="data centers, server locations, global hosting, low latency VPS">
+    <title>Data Centers - Skull Hosting | Global Server Locations</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/skulllabsin/skulllabsin/refs/heads/main/skull.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">
+                <img src="https://raw.githubusercontent.com/skulllabsin/skulllabsin/refs/heads/main/skull.png" alt="Skull Hosting Logo">
+                <span>Skull Hosting</span>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="hosting.html">Hosting</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="datacenters.html" class="active">Data Centers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="contact.html" class="btn-primary">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Global Data Centers</h1>
+                <p>Strategically located servers for optimal performance and low latency worldwide</p>
+            </div>
+        </section>
+
+        <section class="map-section section-padding">
+            <div class="container">
+                <div class="world-map-visual">
+                    <div class="map-placeholder">
+                        <svg viewBox="0 0 800 400" class="world-map">
+                            <!-- Simplified world map with location markers -->
+                            <circle cx="150" cy="120" r="8" class="location-marker" data-location="us-west"/>
+                            <circle cx="220" cy="110" r="8" class="location-marker" data-location="us-east"/>
+                            <circle cx="380" cy="90" r="8" class="location-marker" data-location="europe"/>
+                            <circle cx="420" cy="100" r="8" class="location-marker" data-location="europe-central"/>
+                            <circle cx="600" cy="140" r="8" class="location-marker" data-location="asia"/>
+                            <circle cx="650" cy="180" r="8" class="location-marker" data-location="singapore"/>
+                            <circle cx="700" cy="220" r="8" class="location-marker" data-location="australia"/>
+                            <circle cx="400" cy="200" r="8" class="location-marker" data-location="india"/>
+                            
+                            <!-- Connection lines -->
+                            <line x1="150" y1="120" x2="220" y2="110" class="connection-line"/>
+                            <line x1="220" y1="110" x2="380" y2="90" class="connection-line"/>
+                            <line x1="380" y1="90" x2="420" y2="100" class="connection-line"/>
+                            <line x1="420" y1="100" x2="600" y2="140" class="connection-line"/>
+                            <line x1="600" y1="140" x2="650" y2="180" class="connection-line"/>
+                            <line x1="650" y1="180" x2="700" y2="220" class="connection-line"/>
+                            <line x1="420" y1="100" x2="400" y2="200" class="connection-line"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="locations-section section-padding bg-darker">
+            <div class="container">
+                <h2 class="section-title">Our Data Center Locations</h2>
+                <div class="locations-grid">
+                    <div class="location-card" id="us-west">
+                        <div class="location-flag">🇺🇸</div>
+                        <div class="location-info">
+                            <h3>Los Angeles, USA</h3>
+                            <p class="location-city">West Coast, North America</p>
+                            <ul class="location-specs">
+                                <li><strong>Latency:</strong> < 20ms (US West)</li>
+                                <li><strong>Provider:</strong> Tier III+</li>
+                                <li><strong>Connectivity:</strong> 10Gbps</li>
+                                <li><strong>Power:</strong> 2N Redundant</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="location-card" id="us-east">
+                        <div class="location-flag">🇺🇸</div>
+                        <div class="location-info">
+                            <h3>New York, USA</h3>
+                            <p class="location-city">East Coast, North America</p>
+                            <ul class="location-specs">
+                                <li><strong>Latency:</strong> < 15ms (US East)</li>
+                                <li><strong>Provider:</strong> Tier III+</li>
+                                <li><strong>Connectivity:</strong> 10Gbps</li>
+                                <li><strong>Power:</strong> 2N Redundant</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="location-card" id="europe">
+                        <div class="location-flag">🇳🇱</div>
+                        <div class="location-info">
+                            <h3>Amsterdam, Netherlands</h3>
+                            <p class="location-city">Western Europe</p>
+                            <ul class="location-specs">
+                                <li><strong>Latency:</strong> < 10ms (EU West)</li>
+                                <li><strong>Provider:</strong> Tier IV</li>
+                                <li><strong>Connectivity:</strong> 10Gbps</li>
+                                <li><strong>Power:</strong> 2N+1 Redundant</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="location-card" id="europe-central">
+                        <div class="location-flag">🇩🇪</div>
+                        <div class="location-info">
+                            <h3>Frankfurt, Germany</h3>
+                            <p class="location-city">Central Europe</p>
+                            <ul class="location-specs">
+                                <li><strong>Latency:</strong> < 8ms (EU Central)</li>
+                                <li><strong>Provider:</strong> Tier IV</li>
+                                <li><strong>Connectivity:</strong> 10Gbps</li>
+                                <li><strong>Power:</strong> 2N+1 Redundant</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="location-card" id="asia">
+                        <div class="location-flag">🇯🇵</div>
+                        <div class="location-info">
+                            <h3>Tokyo, Japan</h3>
+                            <p class="location-city">East Asia</p>
+                            <ul class="location-specs">
+                                <li><strong>Latency:</strong> < 15ms (Asia)</li>
+                                <li><strong>Provider:</strong> Tier III+</li>
+                                <li><strong>Connectivity:</strong> 10Gbps</li>
+                                <li><strong>Power:</strong> 2N Redundant</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="location-card" id="singapore">
+                        <div class="location-flag">🇸🇬</div>
+                        <div class="location-info">
+                            <h3>Singapore</h3>
+                            <p class="location-city">Southeast Asia</p>
+                            <ul class="location-specs">
+                                <li><strong>Latency:</strong> < 20ms (SEA)</li>
+                                <li><strong>Provider:</strong> Tier III+</li>
+                                <li><strong>Connectivity:</strong> 10Gbps</li>
+                                <li><strong>Power:</strong> 2N Redundant</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="location-card" id="india">
+                        <div class="location-flag">🇮🇳</div>
+                        <div class="location-info">
+                            <h3>Mumbai, India</h3>
+                            <p class="location-city">South Asia</p>
+                            <ul class="location-specs">
+                                <li><strong>Latency:</strong> < 10ms (India)</li>
+                                <li><strong>Provider:</strong> Tier III+</li>
+                                <li><strong>Connectivity:</strong> 10Gbps</li>
+                                <li><strong>Power:</strong> 2N Redundant</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="location-card" id="australia">
+                        <div class="location-flag">🇦🇺</div>
+                        <div class="location-info">
+                            <h3>Sydney, Australia</h3>
+                            <p class="location-city">Oceania</p>
+                            <ul class="location-specs">
+                                <li><strong>Latency:</strong> < 15ms (AU)</li>
+                                <li><strong>Provider:</strong> Tier III+</li>
+                                <li><strong>Connectivity:</strong> 10Gbps</li>
+                                <li><strong>Power:</strong> 2N Redundant</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="network-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Network Infrastructure</h2>
+                <div class="network-grid">
+                    <div class="network-card">
+                        <div class="network-icon">🌐</div>
+                        <h3>Tier-1 Providers</h3>
+                        <p>We partner with multiple tier-1 network providers including Level3, NTT, Telia, and Cogent to ensure optimal routing and redundancy.</p>
+                    </div>
+                    <div class="network-card">
+                        <div class="network-icon">⚡</div>
+                        <h3>Low Latency</h3>
+                        <p>Our global Anycast network ensures your traffic is routed through the fastest path, minimizing latency for end users.</p>
+                    </div>
+                    <div class="network-card">
+                        <div class="network-icon">🛡️</div>
+                        <h3>DDoS Mitigation</h3>
+                        <p>All data centers are equipped with advanced DDoS protection capable of mitigating attacks up to 10Gbps.</p>
+                    </div>
+                    <div class="network-card">
+                        <div class="network-icon">🔄</div>
+                        <h3>99.9% Uptime</h3>
+                        <p>Redundant power, cooling, and network infrastructure ensures maximum uptime for your critical applications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="compliance-section section-padding bg-darker">
+            <div class="container">
+                <h2 class="section-title">Compliance & Certifications</h2>
+                <div class="compliance-grid">
+                    <div class="compliance-item">
+                        <div class="compliance-badge">SOC 2</div>
+                        <p>Type II Certified</p>
+                    </div>
+                    <div class="compliance-item">
+                        <div class="compliance-badge">ISO</div>
+                        <p>27001 Certified</p>
+                    </div>
+                    <div class="compliance-item">
+                        <div class="compliance-badge">GDPR</div>
+                        <p>Compliant</p>
+                    </div>
+                    <div class="compliance-item">
+                        <div class="compliance-badge">HIPAA</div>
+                        <p>Available on Request</p>
+                    </div>
+                    <div class="compliance-item">
+                        <div class="compliance-badge">PCI DSS</div>
+                        <p>Level 1 Compliant</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section section-padding">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Choose Your Location</h2>
+                    <p>Deploy your VPS in the data center closest to your customers for the best performance.</p>
+                    <div class="cta-buttons">
+                        <a href="hosting.html" class="btn-primary btn-large">View Plans</a>
+                        <a href="contact.html" class="btn-secondary btn-large">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="logo">
+                        <img src="https://raw.githubusercontent.com/skulllabsin/skulllabsin/refs/heads/main/skull.png" alt="Skull Hosting Logo">
+                        <span>Skull Hosting</span>
+                    </a>
+                    <p>Premium VPS hosting solutions for businesses of all sizes. Reliable, fast, and secure.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="hosting.html">VPS Hosting</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="datacenters.html">Data Centers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="network.html">Network Status</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="sla.html">SLA</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Skull Hosting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
