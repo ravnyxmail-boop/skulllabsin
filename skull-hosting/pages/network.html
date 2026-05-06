@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skull Hosting Network Status - Real-time monitoring of all systems and services across our global data centers.">
+    <title>Network Status - Skull Hosting | System Status Page</title>
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/skulllabsin/skulllabsin/refs/heads/main/skull.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">
+                <img src="https://raw.githubusercontent.com/skulllabsin/skulllabsin/refs/heads/main/skull.png" alt="Skull Hosting Logo">
+                <span>Skull Hosting</span>
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="hosting.html">Hosting</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="datacenters.html">Data Centers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="contact.html" class="btn-primary">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header status-header">
+            <div class="container">
+                <h1>System Status</h1>
+                <p>Real-time monitoring of all Skull Hosting services</p>
+                <div class="overall-status status-operational">
+                    <span class="status-indicator"></span>
+                    <span>All Systems Operational</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="status-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Current Status</h2>
+                
+                <div class="services-grid">
+                    <div class="service-card service-operational">
+                        <div class="service-header">
+                            <span class="service-icon">🖥️</span>
+                            <h3>VPS Hosting</h3>
+                            <span class="service-status operational">Operational</span>
+                        </div>
+                        <div class="service-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Uptime (24h)</span>
+                                <span class="metric-value">99.99%</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Response Time</span>
+                                <span class="metric-value">12ms</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card service-operational">
+                        <div class="service-header">
+                            <span class="service-icon">🌐</span>
+                            <h3>Network</h3>
+                            <span class="service-status operational">Operational</span>
+                        </div>
+                        <div class="service-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Packet Loss</span>
+                                <span class="metric-value">0.00%</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Latency</span>
+                                <span class="metric-value">8ms</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card service-operational">
+                        <div class="service-header">
+                            <span class="service-icon">💾</span>
+                            <h3>Storage</h3>
+                            <span class="service-status operational">Operational</span>
+                        </div>
+                        <div class="service-metrics">
+                            <div class="metric">
+                                <span class="metric-label">IOPS</span>
+                                <span class="metric-value">Normal</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Throughput</span>
+                                <span class="metric-value">Optimal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card service-operational">
+                        <div class="service-header">
+                            <span class="service-icon">🔧</span>
+                            <h3>Control Panel</h3>
+                            <span class="service-status operational">Operational</span>
+                        </div>
+                        <div class="service-metrics">
+                            <div class="metric">
+                                <span class="metric-label">API Status</span>
+                                <span class="metric-value">Healthy</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Dashboard</span>
+                                <span class="metric-value">Online</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card service-operational">
+                        <div class="service-header">
+                            <span class="service-icon">📧</span>
+                            <h3>Email Services</h3>
+                            <span class="service-status operational">Operational</span>
+                        </div>
+                        <div class="service-metrics">
+                            <div class="metric">
+                                <span class="metric-label">SMTP</span>
+                                <span class="metric-value">Active</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">IMAP/POP3</span>
+                                <span class="metric-value">Active</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card service-operational">
+                        <div class="service-header">
+                            <span class="service-icon">🛡️</span>
+                            <h3>DDoS Protection</h3>
+                            <span class="service-status operational">Operational</span>
+                        </div>
+                        <div class="service-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Mitigation</span>
+                                <span class="metric-value">Active</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Filtering</span>
+                                <span class="metric-value">Enabled</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="datacenter-status section-padding bg-darker">
+            <div class="container">
+                <h2 class="section-title">Data Center Status</h2>
+                <div class="dc-grid">
+                    <div class="dc-card">
+                        <div class="dc-header">
+                            <span class="dc-flag">🇺🇸</span>
+                            <h4>Los Angeles, USA</h4>
+                            <span class="dc-status operational">● Operational</span>
+                        </div>
+                        <div class="dc-stats">
+                            <span>CPU: 45%</span>
+                            <span>Memory: 62%</span>
+                            <span>Storage: 38%</span>
+                        </div>
+                    </div>
+                    <div class="dc-card">
+                        <div class="dc-header">
+                            <span class="dc-flag">🇺🇸</span>
+                            <h4>New York, USA</h4>
+                            <span class="dc-status operational">● Operational</span>
+                        </div>
+                        <div class="dc-stats">
+                            <span>CPU: 52%</span>
+                            <span>Memory: 58%</span>
+                            <span>Storage: 41%</span>
+                        </div>
+                    </div>
+                    <div class="dc-card">
+                        <div class="dc-header">
+                            <span class="dc-flag">🇳🇱</span>
+                            <h4>Amsterdam, NL</h4>
+                            <span class="dc-status operational">● Operational</span>
+                        </div>
+                        <div class="dc-stats">
+                            <span>CPU: 48%</span>
+                            <span>Memory: 55%</span>
+                            <span>Storage: 35%</span>
+                        </div>
+                    </div>
+                    <div class="dc-card">
+                        <div class="dc-header">
+                            <span class="dc-flag">🇩🇪</span>
+                            <h4>Frankfurt, DE</h4>
+                            <span class="dc-status operational">● Operational</span>
+                        </div>
+                        <div class="dc-stats">
+                            <span>CPU: 61%</span>
+                            <span>Memory: 67%</span>
+                            <span>Storage: 44%</span>
+                        </div>
+                    </div>
+                    <div class="dc-card">
+                        <div class="dc-header">
+                            <span class="dc-flag">🇯🇵</span>
+                            <h4>Tokyo, JP</h4>
+                            <span class="dc-status operational">● Operational</span>
+                        </div>
+                        <div class="dc-stats">
+                            <span>CPU: 43%</span>
+                            <span>Memory: 51%</span>
+                            <span>Storage: 29%</span>
+                        </div>
+                    </div>
+                    <div class="dc-card">
+                        <div class="dc-header">
+                            <span class="dc-flag">🇸🇬</span>
+                            <h4>Singapore</h4>
+                            <span class="dc-status operational">● Operational</span>
+                        </div>
+                        <div class="dc-stats">
+                            <span>CPU: 55%</span>
+                            <span>Memory: 63%</span>
+                            <span>Storage: 47%</span>
+                        </div>
+                    </div>
+                    <div class="dc-card">
+                        <div class="dc-header">
+                            <span class="dc-flag">🇮🇳</span>
+                            <h4>Mumbai, IN</h4>
+                            <span class="dc-status operational">● Operational</span>
+                        </div>
+                        <div class="dc-stats">
+                            <span>CPU: 39%</span>
+                            <span>Memory: 48%</span>
+                            <span>Storage: 33%</span>
+                        </div>
+                    </div>
+                    <div class="dc-card">
+                        <div class="dc-header">
+                            <span class="dc-flag">🇦🇺</span>
+                            <h4>Sydney, AU</h4>
+                            <span class="dc-status operational">● Operational</span>
+                        </div>
+                        <div class="dc-stats">
+                            <span>CPU: 47%</span>
+                            <span>Memory: 54%</span>
+                            <span>Storage: 36%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="incidents-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Recent Incidents</h2>
+                <div class="incidents-list">
+                    <div class="incident-card resolved">
+                        <div class="incident-header">
+                            <h3>Network Latency Spike - Frankfurt Data Center</h3>
+                            <span class="incident-date">January 15, 2024</span>
+                            <span class="incident-status resolved">Resolved</span>
+                        </div>
+                        <div class="incident-timeline">
+                            <div class="timeline-item">
+                                <span class="timeline-time">14:32 UTC</span>
+                                <span class="timeline-event">Issue detected by monitoring system</span>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-time">14:35 UTC</span>
+                                <span class="timeline-event">Engineering team investigating</span>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-time">14:48 UTC</span>
+                                <span class="timeline-event">Root cause identified: BGP route issue</span>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-time">15:02 UTC</span>
+                                <span class="timeline-event">Fix implemented, services restored</span>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-time">15:30 UTC</span>
+                                <span class="timeline-event">Incident resolved, monitoring continues</span>
+                            </div>
+                        </div>
+                        <p class="incident-resolution"><strong>Resolution:</strong> Updated BGP routing tables and implemented additional monitoring alerts.</p>
+                    </div>
+
+                    <div class="incident-card resolved">
+                        <div class="incident-header">
+                            <h3>Scheduled Maintenance - Los Angeles Data Center</h3>
+                            <span class="incident-date">January 10, 2024</span>
+                            <span class="incident-status completed">Completed</span>
+                        </div>
+                        <p class="incident-description">Planned maintenance for network infrastructure upgrade. All services were temporarily unavailable during the maintenance window.</p>
+                        <p class="incident-duration"><strong>Duration:</strong> 2 hours (02:00 - 04:00 UTC)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="uptime-section section-padding bg-darker">
+            <div class="container">
+                <h2 class="section-title">90-Day Uptime History</h2>
+                <div class="uptime-chart">
+                    <div class="chart-bars">
+                        <!-- Simulated uptime bars -->
+                        <div class="uptime-bar" style="--height: 99.9%; --color: #10b981;" title="99.9%"></div>
+                        <div class="uptime-bar" style="--height: 99.95%; --color: #10b981;" title="99.95%"></div>
+                        <div class="uptime-bar" style="--height: 99.88%; --color: #10b981;" title="99.88%"></div>
+                        <div class="uptime-bar" style="--height: 99.99%; --color: #10b981;" title="99.99%"></div>
+                        <div class="uptime-bar" style="--height: 99.92%; --color: #10b981;" title="99.92%"></div>
+                        <div class="uptime-bar" style="--height: 99.97%; --color: #10b981;" title="99.97%"></div>
+                        <div class="uptime-bar" style="--height: 99.85%; --color: #10b981;" title="99.85%"></div>
+                        <div class="uptime-bar" style="--height: 99.94%; --color: #10b981;" title="99.94%"></div>
+                        <div class="uptime-bar" style="--height: 99.98%; --color: #10b981;" title="99.98%"></div>
+                        <div class="uptime-bar" style="--height: 99.91%; --color: #10b981;" title="99.91%"></div>
+                        <div class="uptime-bar" style="--height: 99.96%; --color: #10b981;" title="99.96%"></div>
+                        <div class="uptime-bar" style="--height: 99.89%; --color: #10b981;" title="99.89%"></div>
+                    </div>
+                    <div class="chart-labels">
+                        <span>Dec</span>
+                        <span></span>
+                        <span></span>
+                        <span>Jan</span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span>Feb</span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="uptime-summary">
+                    <div class="summary-stat">
+                        <span class="summary-value">99.93%</span>
+                        <span class="summary-label">Average Uptime (90 days)</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="summary-value">4 incidents</span>
+                        <span class="summary-label">Total Incidents</span>
+                    </div>
+                    <div class="summary-stat">
+                        <span class="summary-value">1.2 hrs</span>
+                        <span class="summary-label">Total Downtime</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe-section section-padding">
+            <div class="container">
+                <div class="subscribe-box">
+                    <h2>Subscribe to Status Updates</h2>
+                    <p>Get notified about incidents and maintenance via email or SMS.</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn-primary">Subscribe</button>
+                    </form>
+                    <div class="subscribe-options">
+                        <label><input type="checkbox"> Email notifications</label>
+                        <label><input type="checkbox"> SMS notifications</label>
+                        <label><input type="checkbox"> Incident updates only</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="logo">
+                        <img src="https://raw.githubusercontent.com/skulllabsin/skulllabsin/refs/heads/main/skull.png" alt="Skull Hosting Logo">
+                        <span>Skull Hosting</span>
+                    </a>
+                    <p>Premium VPS hosting solutions for businesses of all sizes. Reliable, fast, and secure.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="hosting.html">VPS Hosting</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="datacenters.html">Data Centers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="network.html">Network Status</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="sla.html">SLA</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Skull Hosting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
