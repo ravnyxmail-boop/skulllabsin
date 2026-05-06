@@ -1,0 +1,228 @@
+/* Page Header */
+.page-header {
+    padding: 160px 0 80px;
+    background: linear-gradient(180deg, var(--dark-light) 0%, var(--dark) 100%);
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 48px;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+
+.page-header p {
+    font-size: 18px;
+    color: var(--gray-light);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Hosting Plans */
+.hosting-plans {
+    padding: 80px 0;
+}
+
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.plan-card {
+    padding: 32px;
+    background: var(--dark-light);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.plan-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(139, 92, 246, 0.3);
+}
+
+.plan-card.featured {
+    border-color: var(--primary);
+    background: linear-gradient(180deg, rgba(139, 92, 246, 0.1) 0%, var(--dark-light) 100%);
+}
+
+.plan-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px 16px;
+    background: rgba(139, 92, 246, 0.2);
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.plan-badge.popular {
+    background: var(--gradient);
+    border: none;
+    color: var(--white);
+}
+
+.plan-header {
+    text-align: center;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.plan-header h3 {
+    font-size: 24px;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+
+.plan-price {
+    text-align: center;
+}
+
+.plan-specs {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.plan-specs li {
+    padding: 12px 0;
+    color: var(--gray-light);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 15px;
+}
+
+.plan-specs li:last-child {
+    border-bottom: none;
+}
+
+.plan-specs strong {
+    color: var(--white);
+    font-weight: 600;
+}
+
+/* Hosting Features */
+.hosting-features {
+    background: var(--dark-light);
+    padding: 80px 0;
+}
+
+.features-grid-large {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 32px;
+}
+
+.feature-icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(139, 92, 246, 0.1);
+    border-radius: 16px;
+    color: var(--primary);
+}
+
+.feature-item h4 {
+    font-size: 20px;
+    color: var(--white);
+    margin-bottom: 12px;
+}
+
+.feature-item p {
+    color: var(--gray-light);
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* OS Section */
+.os-section {
+    padding: 80px 0;
+}
+
+.os-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 24px;
+}
+
+.os-card {
+    text-align: center;
+    padding: 24px;
+    background: var(--dark-light);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+.os-card:hover {
+    border-color: rgba(139, 92, 246, 0.3);
+    transform: translateY(-4px);
+}
+
+.os-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.os-card h4 {
+    font-size: 16px;
+    color: var(--white);
+    margin-bottom: 8px;
+}
+
+.os-card p {
+    font-size: 13px;
+    color: var(--gray);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .features-grid-large {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .os-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        padding: 120px 0 60px;
+    }
+
+    .page-header h1 {
+        font-size: 36px;
+    }
+
+    .plans-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .features-grid-large {
+        grid-template-columns: 1fr;
+    }
+
+    .os-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .os-grid {
+        grid-template-columns: 1fr;
+    }
+}
